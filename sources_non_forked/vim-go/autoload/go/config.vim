@@ -11,7 +11,7 @@ function! go#config#ListTypeCommands() abort
 endfunction
 
 function! go#config#VersionWarning() abort
-  return get(g:, 'go_version_warning', 1)
+  return get(g:, 'go_version_warning', 0)
 endfunction
 
 function! go#config#BuildTags() abort
